@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/assest/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- nav bar -->
+
+      <nav>
+        <div class="nav-logo">
+          <img src="/assest/logo.png" width="37" alt="" />
+        </div>
+
+        <div class="nav-search">
+          <div class="search">
+            <div class="home-icon">
+              <i class="fa-solid fa-house invert"></i>
+            </div>
+            <div class="search-input">
+              <label for="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+              <input
+                type="search"
+                placeholder="what do you want to play?"
+                id="search"
+              />
+            </div>
+          </div>
+          <div class="nav-buttons">
+            <button id="install">
+              <i class="fa-regular fa-circle-down"></i> install now
+            </button>
+            <button id="signup">sign up</button>
+            <button id="login">log in</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main">
+        <div class="sidebar">
+          <div class="library">
+            <div class="library-options">
+              <h3>your library</h3>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="library-boxes">
+              <div class="box">
+                <h3>create your own playlist</h3>
+                <p>it's easy we will help you</p>
+                <button>create playlist</button>
+              </div>
+              <div class="box">
+                <h3>let's find some podcast to follow</h3>
+                <p>we'll keep you on new episodes</p>
+                <button id="podcast-btn">browse podcast</button>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <ul class="footer-links">
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Safety & Privacy Center</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">About Ads</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+            <ul class="footer-links">
+              <li><a href="#">Cookies</a></li>
+            </ul>
+            <div class="language">
+              <i class="fa-solid fa-globe"></i>
+              <select name="lang">
+                <option value="eng">english</option>
+              </select>
+            </div>
+          </footer>
+        </div>
+        <div class="main-content">
+          <div class="main-content-buttons">
+            <button>all</button>
+            <button>music</button>
+            <button>podcast</button>
+          </div>
+          <div class="playlist">
+            <div class="played-artist">
+              <div class="artist">
+                <img src="/assest/raftaar.webp" width="60" alt="" />
+                <p>raftaar</p>
+                <img
+                  src="/assest/hoverPlay.svg"
+                  id="playbtn"
+                  alt=""
+                  width="35"
+                />
+              </div>
+              <div class="artist">
+                <img src="/assest/seedheMaut.webp" width="60" alt="" />
+                <p>seedhe maut</p>
+                <img
+                  src="/assest/hoverPlay.svg"
+                  id="playbtn"
+                  alt=""
+                  width="35"
+                />
+              </div>
+            </div>
+            <div class="recommended-artist">
+              <h3>made for you</h3>
+              <div class="artist-card">
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card2img.jpeg" width="180" alt="" />
+                  <p>fresh your mood &#x1F60A;</p>
+                </div>
+              </div>
+            </div>
+            <div class="recommended-artist">
+              <h3>Top picks for you</h3>
+              <div class="artist-card">
+                <div class="card">
+                  <img src="/assest/card1img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card6img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card1img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card5img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card6img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card1img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card6img.jpeg" width="180" alt="" />
+                  <p>popular one</p>
+                </div>
+              </div>
+            </div>
+            <div class="recommended-artist">
+              <h3>india's best</h3>
+              <div class="artist-card">
+                <div class="card">
+                  <img src="/assest/card3img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card3img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card4img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card3img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card4img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card4img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+                <div class="card">
+                  <img src="/assest/card3img.jpeg" width="180" alt="" />
+                  <p>you'll love &#x1F60A;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-player">
+          <div class="playbar">
+            <!-- flex end-->
+            <div class="play-controls">
+              <!-- flex end-->
+              <div class="play-buttons">
+                <img src="/assest/player_icon1.png" width="30" alt="" />
+                <img src="/assest/player_icon2.png" width="30" alt="" />
+                <img src="/assest/player_icon3.png" width="30" alt="" />
+                <img src="/assest/player_icon4.png" width="30" alt="" />
+                <img src="/assest/player_icon5.png" width="30" alt="" />
+              </div>
+              <div class="voice-control">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" name="" id="" />
+              </div>
+            </div>
+          </div>
+
+          <input type="range" min="0" max="100" id="progress" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
